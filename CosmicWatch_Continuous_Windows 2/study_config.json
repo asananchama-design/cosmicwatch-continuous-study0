@@ -1,0 +1,44 @@
+{
+  "study": "International Cosmic Day coordinated cosmic-ray muon study",
+  "location": {
+    "institution": "Skyline College",
+    "city": "San Bruno",
+    "state_province": "California",
+    "country": "United States",
+    "room_or_site_notes": "FILL IN: room, floor, indoor/outdoor and shielding above detectors"
+  },
+  "detectors": {
+    "model": "CosmicWatch v2, original 16 MHz ATmega328P Nano",
+    "master_physical_id": "FILL IN: unique label on top detector",
+    "slave_physical_id": "FILL IN: unique label on bottom detector"
+  },
+  "geometry": {
+    "master_width_mm": 50,
+    "master_length_mm": 50,
+    "master_thickness_mm": 10,
+    "slave_width_mm": 50,
+    "slave_length_mm": 50,
+    "slave_thickness_mm": 10,
+    "active_surface_separation_mm": 50,
+    "orientation": "Horizontal active surfaces, one above the other, centered on the same vertical axis",
+    "measured_and_verified": false,
+    "notes": "Nominal original v2 dimensions. Replace with actual measurements. Separation is between active surfaces, not cases. Record which surfaces define the measurement."
+  },
+  "coincidence": {
+    "method": "Original D6 level sampling with two A3 ADC conversions; firmware CW_CONT_1.0.0",
+    "window_us": null,
+    "window_note": "Not independently measured/calibrated on these boards; do not claim a precise window.",
+    "signal_threshold_adc": 50,
+    "reset_threshold_adc": 25
+  },
+  "time": {
+    "saved_timezone": "UTC",
+    "source": "Windows system clock at serial receipt",
+    "notes": "Confirm Windows date/time sync before recording. Nano uptime is independent and not an absolute UTC clock."
+  },
+  "environment": {
+    "atmospheric_pressure_available": false,
+    "ambient_temperature_available": false,
+    "notes": "Optional separate weather measurements need timestamps and units. temp_adc is a detector-board sensor, not calibrated ambient temperature."
+  }
+}
